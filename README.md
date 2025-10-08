@@ -5,12 +5,18 @@ stow
 
 - mos
 - ghosty
-- Aerospace
-- node
+- Aerospace ? ya
+- node, nvm
 - git
 - nvim
 - zed
 - ollama lama-coder
+- ?Karabiner-Elements
+- junky borders
+- ?SketchyBar
+- zsh with starhip
+- ?tmux
+- neofetch
 
 ```zsh
 if ! command -v brew >/dev/null 2>&1; then
