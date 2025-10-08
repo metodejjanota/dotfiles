@@ -1,3 +1,5 @@
+[Homebrew formula search](https://formulae.brew.sh)
+
 ./dotfiles/
 stow
 
