@@ -25,3 +25,5 @@ fi
 eval "$($(command -v brew) shellenv)"
 brew install --cask nikitabobko/tap/aerospace spotify obsidian ghostty
 ```
+
+[stow tut](https://www.youtube.com/watch?v=y6XCebnB9gs&t=47s)
