@@ -4,7 +4,7 @@
 stow
 
 - mos
-- ghostty
+- wezterm
 - Aerospace ? ya
 - node, nvm
 - git
