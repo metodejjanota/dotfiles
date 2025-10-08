@@ -1,9 +1,12 @@
 ./dotfiles/
 stow
 
-mos
-ghosty
-Aerospace
+- mos
+- ghosty
+- Aerospace
+- node
+- git
+- nvim
 
 ```zsh
 if ! command -v brew >/dev/null 2>&1; then
