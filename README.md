@@ -20,6 +20,10 @@ stow
 - hiddenbar
 
 ```zsh
+rm -rf "$HOME/dotfiles"
+git clone https://github.com/metodejjanota/dotfiles.git "$HOME/dotfiles"
+
+mkdir -p "$HOME/.config"
 
 # Symlink "~/dotfiles/.zshrc" into "~/"
 ln -sf "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
