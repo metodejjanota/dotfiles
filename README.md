@@ -18,18 +18,38 @@ stow
 - ?tmux
 - neofetch
 - hiddenbar
+- github
+
+# Homebrew
+```zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ```zsh
-rm -rf "$HOME/dotfiles"
-git clone https://github.com/metodejjanota/dotfiles.git "$HOME/dotfiles"
+brew install git stow
+```
 
+# Setup
+```zsh
+rm -rf "$HOME/Projects"
+git clone https://github.com/metodejjanota/dotfiles.git "$HOME/Projects/dotfiles"
+```
+
+```zsh
+rm -rf "$HOME/.config"
 mkdir -p "$HOME/.config"
+```
 
-# Symlink "~/dotfiles/.zshrc" into "~/"
-ln -sf "$HOME/dotfiles/.zshrc" "$HOME/.zshrc"
+```zsh
+cd ~/Projects/dotfiles
+stow --target="$HOME/.config" .config
+stow --target="$HOME" zsh
+```
 
-# Symlink "~/dotfiles/.config" folder into "~/.config"
-ln -sfn "$HOME/dotfiles/.config/" "$HOME/.config/"
+# Test
+```zsh
+ls -lah ~/.config
+ls -l ~/.zshrc
 ```
 
 [stow tut](https://www.youtube.com/watch?v=y6XCebnB9gs&t=47s)
