@@ -12,7 +12,7 @@
 
 ```zsh
 brew tap FelixKratz/formulae
-brew install git stow starship neofetch neovim nvm pnpm tree ollama borders
+brew install git stow starship neofetch neovim nvm pnpm tree borders
 brew list --formula
 ```
 
