@@ -1,24 +1,11 @@
 [Homebrew formula search](https://formulae.brew.sh)
 
-./dotfiles/
-stow
-
-- mos
-- wezterm
-- Aerospace ? ya
 - node, nvm
-- git
-- nvim
-- zed
-- ollama lama-coder
+- ?ollama lama-coder
 - ?Karabiner-Elements
-- junky borders
+- ?junky borders
 - ?SketchyBar
-- zsh with starhip
 - ?tmux
-- neofetch
-- hiddenbar
-- github
 
 # Homebrew
 ```zsh
@@ -26,7 +13,7 @@ stow
 ```
 
 ```zsh
-brew install git stow
+brew install git stow starship neofetch neovim nvm pnpm
 ```
 
 # Setup
@@ -44,6 +31,12 @@ mkdir -p "$HOME/.config"
 cd ~/Projects/dotfiles
 stow --target="$HOME/.config" .config
 stow --target="$HOME" zsh
+```
+
+# Casks
+```zsh
+brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar
+brew list --cask
 ```
 
 # Test
