@@ -1,4 +1,4 @@
-[Homebrew formula search](https://formulae.brew.sh)
+# Mac DEV dotfiles setup
 
 - node, nvm
 - ?ollama lama-coder
@@ -7,16 +7,22 @@
 - ?SketchyBar
 - ?tmux
 
-# Homebrew
+## Homebrew
 ```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ```zsh
 brew install git stow starship neofetch neovim nvm pnpm
+brew list --formula
 ```
 
-# Setup
+## Nvm
+```zsh
+mkdir -p ~/.nvm
+```
+
+## Setup
 ```zsh
 rm -rf "$HOME/Projects"
 git clone https://github.com/metodejjanota/dotfiles.git "$HOME/Projects/dotfiles"
@@ -33,16 +39,17 @@ stow --target="$HOME/.config" .config
 stow --target="$HOME" zsh
 ```
 
-# Casks
+## Casks
 ```zsh
 brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar
 brew list --cask
 ```
 
-# Test
+## Test
 ```zsh
 ls -lah ~/.config
 ls -l ~/.zshrc
 ```
 
+[Homebrew formula search](https://formulae.brew.sh)
 [stow tut](https://www.youtube.com/watch?v=y6XCebnB9gs&t=47s)
