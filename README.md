@@ -13,13 +13,16 @@
 ```
 
 ```zsh
-brew install git stow starship neofetch neovim nvm pnpm
+brew install git stow starship neofetch neovim nvm pnpm tree
 brew list --formula
 ```
 
 ## Nvm
 ```zsh
 mkdir -p ~/.nvm
+nvm install --lts
+nvm use --lts
+node -v
 ```
 
 ## Setup
