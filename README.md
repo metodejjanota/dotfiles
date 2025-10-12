@@ -1,9 +1,7 @@
 # Mac DEV dotfiles setup
 
-- node, nvm
 - ?ollama lama-coder
 - ?Karabiner-Elements
-- ?junky borders
 - ?SketchyBar
 - ?tmux
 
