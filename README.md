@@ -43,7 +43,7 @@ stow --target="$HOME" zsh
 
 ## Casks
 ```zsh
-brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar
+brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen
 brew list --cask
 ```
 
