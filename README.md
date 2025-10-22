@@ -1,9 +1,7 @@
 # Mac DEV dotfiles setup
 
-- node, nvm
 - ?ollama lama-coder
 - ?Karabiner-Elements
-- ?junky borders
 - ?SketchyBar
 - ?tmux
 
@@ -13,7 +11,8 @@
 ```
 
 ```zsh
-brew install git stow starship neofetch neovim nvm pnpm tree
+brew tap FelixKratz/formulae
+brew install git stow starship neofetch neovim nvm pnpm tree borders
 brew list --formula
 ```
 
@@ -44,7 +43,7 @@ stow --target="$HOME" zsh
 
 ## Casks
 ```zsh
-brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar
+brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen obsidian discord
 brew list --cask
 ```
 
