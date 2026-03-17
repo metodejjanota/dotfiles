@@ -71,6 +71,7 @@ ls -l ~/.zshrc
 - Sol
 - MonitorControl
 - Pearcleaner
+- DockDoor
 
 [Homebrew formula search](https://formulae.brew.sh)
 [stow tut](https://www.youtube.com/watch?v=y6XCebnB9gs&t=47s)
