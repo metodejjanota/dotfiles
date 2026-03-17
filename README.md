@@ -43,7 +43,7 @@ stow --target="$HOME" zsh
 
 ## Casks
 ```zsh
-brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen obsidian discord appcleaner raycast dockdoor
+brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen obsidian discord appcleaner cleanupbuddy textsniper sol monitorcontrol pearcleaner dockdoor
 brew list --cask
 ```
 
@@ -52,6 +52,25 @@ brew list --cask
 ls -lah ~/.config
 ls -l ~/.zshrc
 ```
+
+## List of all cask Apps
+- GitHub
+- Spotify
+- WezTerm
+- Signal
+- AeroSpace
+- Mos
+- Zed
+- HiddenBar
+- Zen
+- Obsidian
+- Discord
+- AppCleaner
+- CleanupBuddy
+- TextSniper
+- Sol
+- MonitorControl
+- Pearcleaner
 
 [Homebrew formula search](https://formulae.brew.sh)
 [stow tut](https://www.youtube.com/watch?v=y6XCebnB9gs&t=47s)
