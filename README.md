@@ -1,10 +1,5 @@
 # Mac DEV dotfiles setup
 
-- ?ollama lama-coder
-- ?Karabiner-Elements
-- ?SketchyBar
-- ?tmux
-
 ## Homebrew
 ```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
