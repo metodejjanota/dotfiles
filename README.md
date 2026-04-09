@@ -7,7 +7,7 @@
 
 ```zsh
 brew tap FelixKratz/formulae
-brew install git stow starship neofetch neovim nvm pnpm tree borders stylua
+brew install git stow starship neofetch neovim nvm pnpm tree borders stylua ripgrep fd chafa
 brew list --formula
 ```
 
@@ -38,7 +38,7 @@ stow --target="$HOME" zsh
 
 ## Casks
 ```zsh
-brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen obsidian discord appcleaner cleanupbuddy textsniper sol monitorcontrol pearcleaner dockdoor
+brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen obsidian discord appcleaner cleanupbuddy textsniper sol monitorcontrol pearcleaner dockdoor trex
 brew list --cask
 ```
 
