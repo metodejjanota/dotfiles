@@ -29,12 +29,16 @@
     "edit_prediction_provider": "copilot"
   },
   "soft_wrap": "editor_width",
-  "icon_theme": "Colored Zed Icons Theme Dark",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Colored Zed Icons Theme Dark",
+    "dark": "Catppuccin Frappé"
+  },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "dark",
-    "light": "Gruvbox Light",
-    "dark": "Tokyo Night"
+    "light": "Catppuccin Macchiato",
+    "dark": "Catppuccin Macchiato"
   }
 }
