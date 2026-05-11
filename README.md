@@ -38,7 +38,7 @@ stow --target="$HOME" zsh
 
 ## Casks
 ```zsh
-brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos zed hiddenbar zen obsidian discord appcleaner cleanupbuddy monitorcontrol pearcleaner trex
+brew install --cask github spotify wezterm signal nikitabobko/tap/aerospace mos hiddenbar zen discord appcleaner cleanupbuddy monitorcontrol pearcleaner trex
 brew list --cask
 ```
 
@@ -55,11 +55,9 @@ ls -l ~/.zshrc
 - Signal
 - AeroSpace
 - Mos
-- Zed
 - HiddenBar
 - Zen
 - RayCast
-- Obsidian
 - Discord
 - Trex
 - AppCleaner
