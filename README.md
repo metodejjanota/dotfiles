@@ -55,22 +55,5 @@ ls -lah ~/.config
 ls -l ~/.zshrc
 ```
 
-## List of all cask Apps
-- GitHub
-- Spotify
-- WezTerm
-- Signal
-- AeroSpace
-- Mos
-- HiddenBar
-- Zen
-- RayCast
-- Discord
-- Trex
-- AppCleaner
-- CleanupBuddy
-- MonitorControl
-- Pearcleaner
-
 [Homebrew formula search](https://formulae.brew.sh)
 [stow tut](https://www.youtube.com/watch?v=y6XCebnB9gs&t=47s)
