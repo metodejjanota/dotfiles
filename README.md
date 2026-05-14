@@ -7,8 +7,15 @@
 
 ```zsh
 brew tap FelixKratz/formulae
-brew install git stow starship neofetch neovim nvm pnpm tree borders stylua ripgrep fd chafa luarocks lazygit lazydocker
+brew install git stow starship neofetch neovim nvm pnpm tree borders stylua ripgrep fd chafa luarocks lazygit lazydocker docker docker-compose colima mikker/tap/tuna
 brew list --formula
+```
+
+## Docker
+```zsh
+colima start
+docker context use colima
+docker ps
 ```
 
 ## Nvm
