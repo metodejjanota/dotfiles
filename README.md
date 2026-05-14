@@ -7,7 +7,7 @@
 
 ```zsh
 brew tap FelixKratz/formulae
-brew install git stow starship neofetch neovim nvm pnpm tree borders stylua ripgrep fd chafa luarocks docker colima
+brew install git stow starship neofetch neovim nvm pnpm tree borders stylua ripgrep fd chafa luarocks lazygit lazydocker
 brew list --formula
 ```
 
